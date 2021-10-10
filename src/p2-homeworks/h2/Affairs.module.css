@@ -1,0 +1,41 @@
+.content {
+    display: flex;
+    margin-left: 19px;
+}
+.buttons {
+    margin: 5px;
+    appearance: none;
+    -webkit-appearance: none;
+    padding: 10px;
+    border: none;
+    background-color: #3F51B5;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    width: 5%;
+    cursor: pointer;
+}
+.buttons:hover {
+    background-color: #3a4b97;
+}
+.buttons:active {
+    background-color: #3F51B5;
+}
+
+.item {
+
+    margin: 10px;
+    width: 100px;
+}
+
+.high {
+    color: red;
+}
+
+.middle {
+    color: orange;
+}
+
+.low {
+    color: green;
+}

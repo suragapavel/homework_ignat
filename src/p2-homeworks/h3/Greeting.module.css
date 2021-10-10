@@ -1,0 +1,44 @@
+.input:focus {
+    outline: none;
+    border: blue solid 2px;
+}
+.someClass {
+    margin: 10px;
+    border-radius:10px;
+    border: 1px solid #eee;
+    transition: .3s border-color;
+    background: white;
+}
+.greeting {
+    padding-left: 10px;
+    font-size: 30px;
+    display: flex;
+    align-items: flex-start;
+    margin: 10px;
+}
+.error {
+    margin: 10px;
+    border-radius:10px;
+    border: 3px solid red;
+    transition: .3s border-color;
+    background: white;
+}
+.button {
+    margin: 5px;
+    appearance: none;
+    -webkit-appearance: none;
+    padding: 10px;
+    border: none;
+    background-color: #3F51B5;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    width: 5%;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #3a4b97;
+}
+.button:active {
+    background-color: #3F51B5;
+}
