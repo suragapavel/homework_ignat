@@ -1,0 +1,13 @@
+.spanClass {
+    width: 140px;
+}
+.spanClass:hover {
+    background-color: #8591d5;
+    transition: background-color 0.25s, color 0.5s;
+}
+.content {
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: left;
+}
