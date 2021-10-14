@@ -1,0 +1,14 @@
+.option {
+}
+
+.option:checked {
+    background-color: #3F51B5;
+}
+
+.select {
+    width: 90px;
+    margin-bottom: 5px;
+    padding: 5px;
+    appearance: none;
+    background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right;
+}
