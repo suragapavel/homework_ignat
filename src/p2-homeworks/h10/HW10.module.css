@@ -1,0 +1,28 @@
+.center {
+    padding-top: 10px;
+    padding-left: 20px;
+    min-height: 3em;
+}
+
+.ring {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    animation: ring 2s linear;
+}
+
+@keyframes ring {
+    0% {
+        transform: rotate(0deg);
+        box-shadow: 1px 5px 2px #3a4b97;
+    }
+    50% {
+        transform: rotate(180deg);
+        box-shadow: 1px 5px 2px #8591d5;
+    }
+    100% {
+        transform: rotate(360deg);
+        box-shadow: 1px 5px 2px #0000ff;
+    }
+}
+
